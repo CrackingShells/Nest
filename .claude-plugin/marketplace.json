@@ -15,7 +15,7 @@
       },
       "displayName": "Managing Roadmaps",
       "description": "Creates, executes, and amends graph-based campaign roadmaps.",
-      "category": "Developer Tools"
+      "category": "Productivity"
     },
     {
       "name": "writing-history",
@@ -37,7 +37,7 @@
       },
       "displayName": "Writing Release",
       "description": "Writes GitHub pull request bodies and Discord release announcements for fork-based release workflows.",
-      "category": "Developer Tools"
+      "category": "Productivity"
     },
     {
       "name": "writing-reports",
@@ -48,7 +48,7 @@
       },
       "displayName": "Writing Reports",
       "description": "Guides production of stakeholder-reviewable reports for coding, research, and writing work.",
-      "category": "Developer Tools"
+      "category": "Productivity"
     },
     {
       "name": "spawning-agent-plugins",
