@@ -64,8 +64,8 @@
     {
       "name": "colgrep-mcp",
       "source": {
-        "source": "github",
-        "repo": "CrackingShells/colgrep-mcp"
+        "source": "url",
+        "url": "https://github.com/CrackingShells/colgrep-mcp.git"
       },
       "displayName": "colgrep",
       "description": "Semantic and hybrid code search for coding agents, exposed as MCP tools backed by colgrep.",
