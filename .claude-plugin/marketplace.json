@@ -1,6 +1,6 @@
 {
   "name": "cracking-shells",
-  "description": "CrackingShells org catalogue: playbook plugins, plus colgrep-mcp's search tools and maintainer skills.",
+  "description": "CrackingShells org catalogue: playbook, Plumage and Pinion skill plugins, plus colgrep-mcp's search tools and maintainer skills.",
   "owner": {
     "name": "Eliott Jacopin",
     "email": "eliott.jacopin@riken.jp"
@@ -54,12 +54,78 @@
       "name": "spawning-agent-plugins",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/CrackingShells/cracking-shells-playbook.git",
+        "url": "https://github.com/CrackingShells/Pinion.git",
         "path": "plugins/spawning-agent-plugins"
       },
       "displayName": "Spawning Agent Plugins",
       "description": "Turns a repository into an installable plugin for Claude Code, Codex, and Agent Plugins 1.0 clients.",
       "category": "Developer Tools"
+    },
+    {
+      "name": "waiting-on-processes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Pinion.git",
+        "path": "plugins/waiting-on-processes"
+      },
+      "displayName": "Waiting on Processes",
+      "description": "Writes waits and watches in Claude Code that end by themselves and catch failures, with a sweep that stops stray processes.",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "writing-prose",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/writing-prose"
+      },
+      "displayName": "Writing Prose",
+      "description": "Drafts, revises and reviews prose signed in the author's own voice, with register control against LLM-default rhetoric.",
+      "category": "Productivity"
+    },
+    {
+      "name": "writing-design-canons",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/writing-design-canons"
+      },
+      "displayName": "Writing Design Canons",
+      "description": "Produces layered design canons a team uses to make assets in a coherent style and stakeholders use to review them.",
+      "category": "Productivity"
+    },
+    {
+      "name": "importing-design-figures",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/importing-design-figures"
+      },
+      "displayName": "Importing Design Figures",
+      "description": "Turns a Claude Design figure or table into a print-quality image placed, undistorted, into a local document.",
+      "category": "Productivity"
+    },
+    {
+      "name": "coining-neologisms",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/coining-neologisms"
+      },
+      "displayName": "Coining Neologisms",
+      "description": "Coins a precise new word and its morphological family for a concept that lacks a compact name.",
+      "category": "Productivity"
+    },
+    {
+      "name": "pdf-to-md",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/pdf-to-md"
+      },
+      "displayName": "PDF to Markdown",
+      "description": "Converts digital-native PDFs into Markdown with figures embedded where they belong, using poppler and pandoc.",
+      "category": "Productivity"
     },
     {
       "name": "colgrep-mcp",
