@@ -55,7 +55,7 @@ playbook plugin.
 | `writing-history` | cracking-shells-playbook | Guides the git-discipline lifecycle for commit history: vocabulary, versioning, commits, and branch integration. |
 | `writing-release` | cracking-shells-playbook | Writes GitHub pull request bodies and Discord release announcements for fork-based release workflows. |
 | `writing-reports` | cracking-shells-playbook | Guides production of stakeholder-reviewable reports for coding, research, and writing work. |
-| `spawning-agent-plugins` | cracking-shells-playbook | Turns a repository into an installable plugin for Claude Code, Codex, and Agent Plugins 1.0 clients. |
+| `spawning-agent-plugins` | Pinion | Turns a repository into an installable plugin for Claude Code, Codex, and Agent Plugins 1.0 clients. |
 | `waiting-on-processes` | Pinion | Writes waits and watches in Claude Code that end by themselves and catch failures, with a sweep that stops stray processes. |
 | `writing-prose` | Plumage | Drafts, revises and reviews prose signed in the author's own voice, with register control against LLM-default rhetoric. |
 | `writing-design-canons` | Plumage | Produces layered design canons a team uses to make assets in a coherent style and stakeholders use to review them. |

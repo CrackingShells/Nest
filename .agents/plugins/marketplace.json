@@ -68,7 +68,7 @@
       "name": "spawning-agent-plugins",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/CrackingShells/cracking-shells-playbook.git",
+        "url": "https://github.com/CrackingShells/Pinion.git",
         "path": "plugins/spawning-agent-plugins"
       },
       "displayName": "Spawning Agent Plugins",
