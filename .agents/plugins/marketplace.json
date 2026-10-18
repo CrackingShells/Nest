@@ -80,6 +80,96 @@
       "category": "Developer Tools"
     },
     {
+      "name": "waiting-on-processes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Pinion.git",
+        "path": "plugins/waiting-on-processes"
+      },
+      "displayName": "Waiting on Processes",
+      "description": "Writes waits and watches in Claude Code that end by themselves and catch failures, with a sweep that stops stray processes.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "writing-prose",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/writing-prose"
+      },
+      "displayName": "Writing Prose",
+      "description": "Drafts, revises and reviews prose signed in the author's own voice, with register control against LLM-default rhetoric.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "writing-design-canons",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/writing-design-canons"
+      },
+      "displayName": "Writing Design Canons",
+      "description": "Produces layered design canons a team uses to make assets in a coherent style and stakeholders use to review them.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "importing-design-figures",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/importing-design-figures"
+      },
+      "displayName": "Importing Design Figures",
+      "description": "Turns a Claude Design figure or table into a print-quality image placed, undistorted, into a local document.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "coining-neologisms",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/coining-neologisms"
+      },
+      "displayName": "Coining Neologisms",
+      "description": "Coins a precise new word and its morphological family for a concept that lacks a compact name.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "pdf-to-md",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Plumage.git",
+        "path": "plugins/pdf-to-md"
+      },
+      "displayName": "PDF to Markdown",
+      "description": "Converts digital-native PDFs into Markdown with figures embedded where they belong, using poppler and pandoc.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "colgrep-mcp",
       "source": {
         "source": "url",
