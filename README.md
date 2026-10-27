@@ -64,6 +64,7 @@ playbook plugin.
 | `pdf-to-md` | Plumage | Converts digital-native PDFs into Markdown with figures embedded where they belong, using poppler and pandoc. |
 | `colgrep-mcp` | colgrep-mcp | Semantic and hybrid code search for coding agents, exposed as MCP tools backed by colgrep. |
 | `colgrep-mcp-dev` | colgrep-mcp | **Maintainer-only.** Maintainer skills for the colgrep-mcp repository (policy, campaign leadership, landing and release, stack traps). Not for end users. |
+| `murmuration` | Murmuration | A research team for Claude Code: a principal investigator and colleagues who explore, author claims and verify them independently. **Claude Code only** (macOS and Linux). |
 
 No entry here carries a `version`, `ref` or `sha`. Claude Code resolves each
 plugin's own `plugin.json` version and falls back to the source commit SHA
