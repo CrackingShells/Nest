@@ -147,6 +147,17 @@
       "displayName": "colgrep-mcp maintainer skills",
       "description": "Maintainer skills for this repository (policy, campaign leadership, landing and release, stack traps). Not for end users.",
       "category": "Developer Tools"
+    },
+    {
+      "name": "murmuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Murmuration.git",
+        "path": "plugins/murmuration"
+      },
+      "displayName": "Murmuration",
+      "description": "A research team for Claude Code: a principal investigator who follows what does not add up, and colleagues who explore, author claims and verify them independently. Claude Code only; macOS and Linux.",
+      "category": "Productivity"
     }
   ]
 }
