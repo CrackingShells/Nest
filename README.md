@@ -57,6 +57,7 @@ playbook plugin.
 | `writing-reports` | cracking-shells-playbook | Guides production of stakeholder-reviewable reports for coding, research, and writing work. |
 | `spawning-agent-plugins` | Pinion | Turns a repository into an installable plugin for Claude Code, Codex, and Agent Plugins 1.0 clients. |
 | `waiting-on-processes` | Pinion | Writes waits and watches in Claude Code that end by themselves and catch failures, with a sweep that stops stray processes. |
+| `designing-tests` | Pinion | Designs software tests and statistical tests before they are written, so each answers a stated question and can fail. |
 | `writing-prose` | Plumage | Drafts, revises and reviews prose signed in the author's own voice, with register control against LLM-default rhetoric. |
 | `writing-design-canons` | Plumage | Produces layered design canons a team uses to make assets in a coherent style and stakeholders use to review them. |
 | `importing-design-figures` | Plumage | Turns a Claude Design figure or table into a print-quality image placed, undistorted, into a local document. |

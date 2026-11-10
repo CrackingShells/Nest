@@ -95,6 +95,21 @@
       "category": "Developer Tools"
     },
     {
+      "name": "designing-tests",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/CrackingShells/Pinion.git",
+        "path": "plugins/designing-tests"
+      },
+      "displayName": "Designing Tests",
+      "description": "Designs software tests and statistical tests before they are written, so each answers a stated question and can fail.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "writing-prose",
       "source": {
         "source": "git-subdir",
