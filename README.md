@@ -53,7 +53,7 @@ playbook plugin.
 |:-------|:-----------|:------------|
 | `managing-roadmaps` | cracking-shells-playbook | Creates, executes, and amends graph-based campaign roadmaps. |
 | `writing-history` | cracking-shells-playbook | Guides the git-discipline lifecycle for commit history: vocabulary, versioning, commits, and branch integration. |
-| `writing-release` | cracking-shells-playbook | Writes GitHub pull request bodies and Discord release announcements for fork-based release workflows. |
+| `writing-release` | cracking-shells-playbook | Runs the release cycle: integration lanes into main, pull requests as merge commits, CI-cut releases, tooling by repo contents, channels, and recovery. |
 | `writing-reports` | cracking-shells-playbook | Guides production of stakeholder-reviewable reports for coding, research, and writing work. |
 | `spawning-agent-plugins` | Pinion | Turns a repository into an installable plugin for Claude Code, Codex, and Agent Plugins 1.0 clients. |
 | `waiting-on-processes` | Pinion | Writes waits and watches in Claude Code that end by themselves and catch failures, with a sweep that stops stray processes. |
